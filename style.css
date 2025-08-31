@@ -1,0 +1,61 @@
+*{
+    font-family: "Amaranth", sans-serif;
+}
+h1{
+    color: #eebbaf;
+    font-size: 5rem;
+} 
+h2{
+   font-size: 4rem; 
+}
+h5{
+   color: #eebbaf;
+   font-size: 1.5rem; 
+}
+p{
+    color: aliceblue;
+    margin-top: 2%;
+} 
+.labelss{
+    margin: 0px 1% 5% 1%;
+}
+.feat{
+    background-color: #b88989;
+}
+.feat:hover{
+    border-bottom: solid 3px;
+    border-color: #eebbaf;
+}
+a{
+    color: aliceblue;
+}
+.brnd{
+    color: aliceblue;
+    font-size: 30px;
+}
+@keyframes banner-scroll {
+      0% {
+        transform: translateX(0%);
+      }
+      100% {
+        transform: translateX(-50%);
+      }
+    }
+
+.animate-banner-scroll {
+    animation: banner-scroll 20s linear infinite;
+}
+#tab1:checked ~ .carousel-container .carousel-track {
+    transform: translateX(0%);
+}
+#tab2:checked ~ .carousel-container .carousel-track {
+    transform: translateX(-100%);
+}
+#tab3:checked ~ .carousel-container .carousel-track {
+    transform: translateX(-200%);
+}   
+     
+
+
+
+

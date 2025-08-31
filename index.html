@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FPP SHOPPER MARKETING AGENCY</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Federant&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="fluid bg-[url(/imgss/bg.jpg)] bg-cover bg-center bg-no-repeat">
+    <header>
+        <nav class="flex items-center shadow-xl/20">
+            <img class="w-30 pt-5 pr-5 pb-2 pl-5 cursor-pointer" src="./imgss/logo.png" alt="logo">
+            <ul class="flex-1 text-center text-sm md:text-lg">
+                <li class="list-none inline-block"><a class="text-white px-2" href="#home">Home</a></li>
+                <li class="list-none inline-block"><a class="text-white px-2" href="#history">About</a></li>
+                <li class="list-none inline-block"><a class="text-white px-2" href="#features">Features</a></li>
+                <li class="list-none inline-block"><a class="text-white px-2" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10 px-4 md:px-20 mt-10 md:mt-20 items-center" id="home">
+            <div class="homecont text-2xl">
+                <h1 class="md:text-4xl text-[#eebbaf]">Winning with shopper.</h1>
+                <p>FPP use proper shopper thinking to help your team create a bigger impact. An impact that gets colleagues, customers and shoppers reaching for your brands, categories and innovations.</p>
+                <p>We’ve been around long enough to have real-world perspective, coupled with the experience, capability, and talent that gives our client partners a winning advantage across brand, shopper, and engagement & innovation.</p>
+            </div>
+            <img class="w-full max-w-md md:max-w-full md:w-full ml-0 md:ml-6" src="./imgss/home.png" alt="hom">
+        </div>
+        <div id="features">
+            <div class="con text-2xl mt-20">
+                <div class="relative  max-w-6xl mx-auto text-white overflow-hidden">
+                    <input type="radio" name="carousel" id="tab1" class="sr-only peer/tab1" checked>
+                    <input type="radio" name="carousel" id="tab2" class="sr-only peer/tab2">
+                    <input type="radio" name="carousel" id="tab3" class="sr-only peer/tab3">
+                    <div class="flex flex-wrap justify-center gap-4  labelss">
+                        <label for="tab1" class="px-3 py-2 rounded cursor-pointer peer-checked/ peer-checked/tab1:text-white text-center   transition-colors feat">Brand</label>
+                        <label for="tab2" class="px-3 py-2 rounded cursor-pointer peer-checked/tab2:bg-[#b88989] peer-checked/tab2:text-white text-center   transition-colors feat">Category</label>
+                        <label for="tab3" class="px-3 py-2 rounded cursor-pointer peer-checked/tab3:bg-[#b88989] peer-checked/tab3:text-white text-center   transition-colors feat">Innovation</label>
+                    </div>
+
+                    <div class="relative w-full h-auto carousel-container text-2xl overflow-x-hidden ">
+                        <div class="flex container-fluid w-full md:w-[300%] transition-transform duration-500 ease-in-out carousel-track">
+                            <div class="w-full flex md:flex-row flex-col items-center gap-10 shrink-0 px-4">
+                                <img src="./imgss/brand.png" class="w-full max-w-[400px]  rounded shadow-lg" />
+                                <div>
+                                    <h2 class="text-4xl  ml-8 font-bold text-[#d2a8a8] mb-2">Brand</h2>
+                                    <p class="text-2xl ml-8 text-gray-200 max-w-xl">We turn good-looking brand activations into head-turning, show-stopping shopper landmarks. Delivered by end-to-end agency partnerships to create real impact whenever and wherever your brand shows up and gets bought..</p>
+                                </div>
+                            </div>
+                            <div class="w-full flex md:flex-row flex-col items-center gap-6 shrink-0 px-4">
+                                <img src="./imgss/category.png" class="w-full max-w-[400px]  rounded shadow-lg" />
+                                <div>
+                                    <h2 class="text-4xl ml-8 font-bold text-[#d2a8a8] mb-2">Category</h2>
+                                    <p class="text-2xl ml-8 text-gray-200 max-w-xl">We bring real-world shopper and retail stakeholder insight to category initiatives: helping you and your partners develop categories that prioritise value growth and evolve shopper perception and behaviour.</p>
+                                </div>
+                            </div>
+                            <div class="w-full flex md:flex-row flex-col items-center gap-6 shrink-0 px-4">
+                                <img src="./imgss/innovation.png" class="w-full max-w-[400px]  rounded shadow-lg" />
+                                <div>
+                                    <h2 class="text-4xl ml-8 font-bold text-[#d2a8a8] mb-2">Engagement & <br> Innovation</h2>
+                                    <p class="text-2xl ml-8 text-gray-200 max-w-xl">We inform, inspire and explain our client’s visions for the future through their innovation & engagement projects: delivering solutions that are exciting and actionable, signalling their leadership position to customers and enhancing partnerships.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>    
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10 px-4 md:px-20 mt-10 md:mt-20 items-center" id="history">
+            <div class="hiscont text-2xl">
+                <h1 class="text-3xl md:text-5xl text-[#eebbaf]">History</h1>
+                <p>FPP make it easy for shoppers to choose our clients’ brands, and to get the most out of every shopping opportunity</p>
+                <p>With over 35 years of shopper expertise we’ve helped the biggest manufacturers and brands around the world to build shopper advantage, and baskets:</p>
+            </div>
+            <img class="w-full max-w-xs md:max-w-[440px]" src="./imgss/history.png" alt="his">
+        </div>
+        <div class="logoss w-full overflow-hidden md:ml-8 mt-10">
+            <div class="w-[800%] md:w-[800%] animate-banner-scroll">
+                <img src="./imgss/logos scroll.png" class="md:w-full" alt="Scrolling banner"/>
+            </div>
+        </div>
+        <div class="nomore m-10">
+            <h1 class="text-3xl md:text-5xl text-[#eebbaf]">Want to know more?</h1>
+            <h1 class="text-3xl md:text-5xl text-[#eebbaf]">We'd love to talk: <br>
+            <a class="text-3xl md:text-5xl" href="" target="_blank">hello@fpp.net</a></h1>
+        </div>
+        <div id="contact" class="grid grid-cols-1 lg:grid-cols-5 gap-10 mt-20 px-6 justify-center items-center text-center ">
+            <div class="icons flex justify-center items-center gap-5">
+                <div class="ico">
+                    <a href="" target="_blank"><i class="fa-brands fa-x-twitter brnd"></i></a>
+                </div>
+                <div class="ico">
+                    <a href="" target="_blank"><i class="fa-brands fa-instagram brnd"></i></a>
+                </div>
+                <div class="ico">
+                    <a href="" target="_blank"><i class="fa-brands fa-linkedin-in brnd"></i></a>
+                </div>
+            </div>
+            <div class="co">
+                <h5>NCL</h5>
+                <p>The Courtyard, 1 Dinsdale <br> Newcastle upon Tyne, NE2 </p>
+                <a href="">+44 191 261 6662</a>
+            </div>
+            <div class="co">
+                <h5>LDS</h5>
+                <p>7 Park Row, Leeds,<br>LS1 5HD</p>
+                <a href="">+44 113 531 1427</a>
+            </div>
+            <div class="co">
+                <h5>GVA</h5>
+                <p>Chemin des Vignes 31,<br>1213, Petit Lancy, Geneva.</p>
+                <a href="">+44 22 879 16 70</a>
+            </div>
+            <div class="co">
+                <h5>DBX</h5>
+                <p>Bay Square, Building 4,<br>Dubai, AE</p>
+                <a href="">+971 527091990</a>
+            </div>
+        </div>
+        <footer class="text-center mt-20 mb-5 text-sm">
+            <p id="copyright"> &copy; FPP Marketing - july 2025, All rights reserved to &reg; FPP Shopper</p>
+        </footer>
+    </div>
+</body>
+</html>
